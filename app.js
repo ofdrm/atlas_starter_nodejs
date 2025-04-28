@@ -6,8 +6,7 @@ async function run() {
   // Altas cluster specifics. Be sure it includes
   // a valid username and password! Note that in a production environment,
   // you do not want to store your password in plain-text here.
-  const uri =
-    "mongodb+srv://<user>:<password>@<cluster-url>?retryWrites=true&w=majority";
+  const uri ="mongodb+srv://drmallick:oQn7xJ61P7fLb5QL@cluster0.ca58m2u.mongodb.net/?retryWrites=true&w=majority"
 
   // The MongoClient is the object that references the connection to our
   // datastore (Atlas, for example)
